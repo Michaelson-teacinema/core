@@ -1,0 +1,23 @@
+{
+  "name": "@michaelson-teacinema/core",
+  "version": "1.0.0",
+  "description": "Core utils and shared setup",
+  "license": "ISC",
+  "author": {
+    "name": "Michaelson",
+    "email": "zhz7szkba@mozmail.com"
+  },
+  "type": "module",
+  "pablishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+  },
+  "exports": {
+    "prettier": "./src/prettier.config.mjs"
+  }
+}
